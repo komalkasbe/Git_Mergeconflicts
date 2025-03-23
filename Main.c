@@ -1,6 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello, World!\n");
-    return 0;
+    puts("Hello, World!");  // Safer than printf without format specifiers
+    return EXIT_SUCCESS;    // Standard exit code for successful execution
 }
